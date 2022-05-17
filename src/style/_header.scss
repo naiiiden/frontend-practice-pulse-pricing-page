@@ -110,8 +110,7 @@
         .header--nav--ul {
             list-style-type: none;
             display: flex;
-            border: 1px solid red;
-            gap: 2rem;
+            gap: 2.5rem;
 
             .invisible--li {
                 display: none;
@@ -120,6 +119,16 @@
             a {
                 color: #00ad6a;
                 font-weight: 700;
+                text-decoration: none;
+
+                &.link--three {
+                    color: #062c27;
+                }
+
+                &.header--nav--ul--sign-up {
+                    border: 2px solid #00ab6a;
+                    padding: .4rem 1rem;
+                }
             }
         }
     }

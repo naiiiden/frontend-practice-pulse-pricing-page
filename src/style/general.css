@@ -153,8 +153,7 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    border: 1px solid red;
-    gap: 2rem;
+    gap: 2.5rem;
   }
   header .header--nav--ul .invisible--li {
     display: none;
@@ -162,6 +161,14 @@ img {
   header .header--nav--ul a {
     color: #00ad6a;
     font-weight: 700;
+    text-decoration: none;
+  }
+  header .header--nav--ul a.link--three {
+    color: #062c27;
+  }
+  header .header--nav--ul a.header--nav--ul--sign-up {
+    border: 2px solid #00ab6a;
+    padding: .4rem 1rem;
   }
 }
 /*# sourceMappingURL=general.css.map */
