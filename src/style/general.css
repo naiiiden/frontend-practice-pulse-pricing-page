@@ -20,6 +20,8 @@ img {
 @media screen and (max-width: 767px) {
   header {
     background: #fff;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #d6dae5;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -31,6 +33,10 @@ img {
             justify-content: space-between;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+  header .header--mobile--menu--toggle {
+    border: none;
+    background: none;
   }
   header .header--nav {
     width: 100%;
@@ -44,9 +50,23 @@ img {
             flex-direction: column;
   }
   header .header--nav--ul.show {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 5.15rem;
+    width: 100%;
+    padding: 1.5rem;
+    background: #eafaf1;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    gap: 1rem;
+  }
+  header .header--nav--ul a {
+    font-size: 1.25rem;
+    color: #00ad6a;
+    font-weight: 700;
+    text-decoration: none;
   }
 }
 /*# sourceMappingURL=general.css.map */

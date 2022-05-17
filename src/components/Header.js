@@ -18,6 +18,8 @@ const Header = () => {
                     <li><a href="" className="header--nav--ul--link">Customer Stories</a></li>
                     <li><a href="" className="header--nav--ul--link">Pricing</a></li>
                     <li><a href="" className="header--nav--ul--link">Blog</a></li>
+                    <li><a href="" className="header--nav--ul--link">Contact</a></li>
+                    <li><a href="" className="header--nav--ul--link">Support</a></li>
                     <li><a href="" className="header--nav--ul--sign-up">Sign up</a></li>
 
                 </ul>

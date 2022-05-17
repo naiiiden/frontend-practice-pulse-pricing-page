@@ -1,10 +1,17 @@
 @media screen and (max-width: 767px) {
     header {
         background: #fff;
+        padding: 1rem 1.5rem;
+        border-bottom: 1px solid #d6dae5;
         display: flex;
         align-items: center;
         justify-content: space-between;
         flex-wrap: wrap;
+
+        .header--mobile--menu--toggle {
+            border: none;
+            background: none;
+        }
 
         .header--nav {
             width: 100%;
@@ -16,7 +23,22 @@
             flex-direction: column;
 
             &.show {
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                top: 5.15rem;
+                width: 100%;
+                padding: 1.5rem;
+                background: #eafaf1;
                 display: flex;
+                gap: 1rem;
+            }
+
+            a {
+                font-size: 1.25rem;
+                color: #00ad6a;
+                font-weight: 700;
+                text-decoration: none;
             }
         }
     }
