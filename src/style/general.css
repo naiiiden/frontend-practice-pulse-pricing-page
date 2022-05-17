@@ -205,4 +205,18 @@ img {
   font-size: 1.125rem;
   line-height: 1.5;
 }
+
+@media screen and (min-width: 768px) {
+  .hero--container {
+    padding: 0 1.5rem;
+    gap: 1rem;
+  }
+  .hero--container .hero--heading {
+    font-size: 3.75rem;
+    max-width: 550px;
+  }
+  .hero--container .hero--paragraph {
+    max-width: 575px;
+  }
+}
 /*# sourceMappingURL=general.css.map */
