@@ -1,11 +1,12 @@
 import Logo from "../images/pulse-logo.svg";
+import Menu from "../images/icon-menu.svg";
 
 const Header = () => {
     return (
         <header>
             <img src={Logo} alt="Pulse's logo"/>
             <button aria-label="toggle-navigation" className="header--mobile--menu--toggle">
-
+                <img src={Menu} alt=""/>
             </button>
             <nav className="header--nav">
                 <ul className="header--nav--ul">
