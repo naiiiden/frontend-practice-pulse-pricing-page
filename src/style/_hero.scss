@@ -31,3 +31,10 @@
         }
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .hero--container {
+        align-items: center;
+        text-align: center;
+    }
+}
