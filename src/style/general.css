@@ -62,6 +62,57 @@ img {
     display: flex;
     gap: 1rem;
   }
+  @-webkit-keyframes opacity {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes opacity {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  header .header--nav--ul.show .link--one {
+    opacity: 1;
+    -webkit-animation: opacity .3s;
+            animation: opacity .3s;
+  }
+  header .header--nav--ul.show .link--two {
+    opacity: 1;
+    -webkit-animation: opacity .6s;
+            animation: opacity .6s;
+  }
+  header .header--nav--ul.show .link--three {
+    opacity: 1;
+    -webkit-animation: opacity .9s;
+            animation: opacity .9s;
+  }
+  header .header--nav--ul.show .link--four {
+    opacity: 1;
+    -webkit-animation: opacity 1.2s;
+            animation: opacity 1.2s;
+  }
+  header .header--nav--ul.show .link--five {
+    opacity: 1;
+    -webkit-animation: opacity 1.5s;
+            animation: opacity 1.5s;
+  }
+  header .header--nav--ul.show .link--six {
+    opacity: 1;
+    -webkit-animation: opacity 1.8s;
+            animation: opacity 1.8s;
+  }
+  header .header--nav--ul.show .header--nav--ul--sign-up {
+    opacity: 1;
+    -webkit-animation: opacity 2.1s;
+            animation: opacity 2.1s;
+  }
   header .header--nav--ul .header--nav--ul--li--sign-up {
     margin-top: 1rem;
   }
@@ -70,6 +121,7 @@ img {
     color: #00ad6a;
     font-weight: 700;
     text-decoration: none;
+    opacity: 0;
   }
   header .header--nav--ul a.header--nav--ul--sign-up {
     background: -webkit-gradient(linear, left top, right top, from(#00ab6a), to(#23ea76));

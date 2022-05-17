@@ -32,6 +32,46 @@
                 background: #eafaf1;
                 display: flex;
                 gap: 1rem;
+
+                @keyframes opacity {
+                    from {opacity: 0;}
+                    to {opacity: 1;}
+                }
+
+                .link--one {
+                    opacity: 1;
+                    animation: opacity .3s;
+                }
+
+                .link--two {
+                    opacity: 1;
+                    animation: opacity .6s;
+                }
+
+                .link--three {
+                    opacity: 1;
+                    animation: opacity .9s;
+                }
+                
+                .link--four {
+                    opacity: 1;
+                    animation: opacity 1.2s;
+                }
+
+                .link--five {
+                    opacity: 1;
+                    animation: opacity 1.5s;
+                }
+
+                .link--six {
+                    opacity: 1;
+                    animation: opacity 1.8s;
+                }
+
+                .header--nav--ul--sign-up {
+                    opacity: 1;
+                    animation: opacity 2.1s;
+                }
             }
 
             .header--nav--ul--li--sign-up {
@@ -43,6 +83,7 @@
                 color: #00ad6a;
                 font-weight: 700;
                 text-decoration: none;
+                opacity: 0;
 
                 &.header--nav--ul--sign-up {
                     background: linear-gradient(90deg,#00ab6a,#23ea76);
