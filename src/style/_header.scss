@@ -34,11 +34,22 @@
                 gap: 1rem;
             }
 
+            .header--nav--ul--li--sign-up {
+                margin-top: 1rem;
+            }
+            
             a {
                 font-size: 1.25rem;
                 color: #00ad6a;
                 font-weight: 700;
                 text-decoration: none;
+
+                &.header--nav--ul--sign-up {
+                    background: linear-gradient(90deg,#00ab6a,#23ea76);
+                    padding: 1rem;
+                    color: #062c27;
+                    font-size: 1.125rem;
+                }
             }
         }
     }

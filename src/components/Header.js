@@ -18,9 +18,9 @@ const Header = () => {
                     <li><a href="" className="header--nav--ul--link">Customer Stories</a></li>
                     <li><a href="" className="header--nav--ul--link">Pricing</a></li>
                     <li><a href="" className="header--nav--ul--link">Blog</a></li>
-                    <li><a href="" className="header--nav--ul--link">Contact</a></li>
-                    <li><a href="" className="header--nav--ul--link">Support</a></li>
-                    <li><a href="" className="header--nav--ul--sign-up">Sign up</a></li>
+                    <li><a href="" className="header--nav--ul--link header--nav--ul--invisible">Contact</a></li>
+                    <li><a href="" className="header--nav--ul--link header--nav--ul--invisible">Support</a></li>
+                    <li className="header--nav--ul--li--sign-up"><a href="" className="header--nav--ul--sign-up">Sign Up</a></li>
 
                 </ul>
             </nav>
