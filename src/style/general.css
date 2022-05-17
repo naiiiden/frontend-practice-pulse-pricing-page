@@ -182,4 +182,27 @@ img {
     background: #00ab6a;
   }
 }
+
+.hero--container {
+  padding: 2rem 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+}
+
+.hero--container .hero--heading {
+  font-size: 3rem;
+  letter-spacing: -2px;
+  line-height: 1;
+}
+
+.hero--container .hero--paragraph {
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
 /*# sourceMappingURL=general.css.map */
