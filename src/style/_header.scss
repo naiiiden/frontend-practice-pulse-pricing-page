@@ -133,3 +133,18 @@
         }
     }
 }
+
+@media screen and (min-width: 1024px) {
+    header {
+        .header--nav--ul {
+            a:hover {
+                color: #062c27;
+
+                &.header--nav--ul--sign-up {
+                    color: #062c27;
+                    background: #00ab6a;
+                }
+            }
+        }
+    }
+}
