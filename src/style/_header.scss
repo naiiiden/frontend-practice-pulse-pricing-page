@@ -95,3 +95,32 @@
         }
     }
 }
+
+@media screen and (min-width: 768px) {
+    header {
+        padding: 3rem 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .header--mobile--menu--toggle {
+            display: none;
+        }
+
+        .header--nav--ul {
+            list-style-type: none;
+            display: flex;
+            border: 1px solid red;
+            gap: 2rem;
+
+            .invisible--li {
+                display: none;
+            }
+
+            a {
+                color: #00ad6a;
+                font-weight: 700;
+            }
+        }
+    }
+}
