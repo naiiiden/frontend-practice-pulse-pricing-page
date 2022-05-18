@@ -269,12 +269,6 @@ img {
   color: #080c16;
 }
 
-@counter-style check {
-  system: fixed;
-  symbols: url(../images/icon-check.svg);
-  suffix: " ";
-}
-
 .business--container {
   margin: 0 1.5rem;
   background: #fff;
@@ -364,5 +358,18 @@ img {
 
 .business--container .business--subcontainer .business--li li div img {
   margin-top: .325rem;
+}
+
+@media screen and (min-width: 768px) {
+  .business--heading--price--container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 1rem;
+  }
+  .business--container .business--subcontainer .business--price {
+    margin-top: .6rem;
+    font-size: 1.5rem;
+  }
 }
 /*# sourceMappingURL=general.css.map */

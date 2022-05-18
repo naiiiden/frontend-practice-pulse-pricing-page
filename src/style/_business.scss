@@ -1,9 +1,3 @@
-@counter-style check {
-    system: fixed;
-    symbols: url(../images/icon-check.svg);
-    suffix: " ";
-}
-
 .business--container {
     margin: 0 1.5rem;
     background: #fff;
@@ -79,4 +73,22 @@
             }
         }
     }
+}
+
+@media screen and (min-width: 768px) {
+    .business--heading--price--container {
+        display: flex;
+        gap: 1rem;
+
+    }
+    
+    .business--container {
+        .business--subcontainer {
+            .business--price {
+                margin-top: .6rem;
+                font-size: 1.5rem;
+            }
+        }
+    }
+
 }
