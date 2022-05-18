@@ -283,6 +283,7 @@ img {
 }
 
 .business--container .business--recommended {
+  border-radius: .5rem .5rem 0 0;
   background: #00ad6a;
   color: #fff;
   font-size: .75rem;
