@@ -1,3 +1,9 @@
+.business--heading--price--container {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+
 .business--container {
     margin: 0 1.5rem;
     background: #fff;
@@ -78,6 +84,7 @@
 @media screen and (min-width: 768px) {
     .business--heading--price--container {
         display: flex;
+        flex-direction: row;
         gap: 1rem;
 
     }

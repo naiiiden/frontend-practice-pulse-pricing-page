@@ -269,6 +269,17 @@ img {
   color: #080c16;
 }
 
+.business--heading--price--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: .3rem;
+}
+
 .business--container {
   margin: 0 1.5rem;
   background: #fff;
@@ -365,12 +376,27 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     gap: 1rem;
   }
   .business--container .business--subcontainer .business--price {
     margin-top: .6rem;
     font-size: 1.5rem;
   }
+}
+
+.features--heading--price--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: .4rem;
 }
 
 .features--container {
@@ -466,14 +492,18 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  .business--heading--price--container {
+  .features--heading--price--container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     gap: 1rem;
   }
-  .business--container .business--subcontainer .business--price {
-    margin-top: .6rem;
+  .features--container .features--subcontainer .features--price {
+    margin-top: .45rem;
     font-size: 1.5rem;
   }
 }

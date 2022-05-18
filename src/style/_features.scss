@@ -1,3 +1,9 @@
+.features--heading--price--container {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
 .features--container {
     margin: 0 1.5rem;
     background: #fff;
@@ -77,16 +83,17 @@
 }
 
 @media screen and (min-width: 768px) {
-    .business--heading--price--container {
+    .features--heading--price--container {
         display: flex;
+        flex-direction: row;
         gap: 1rem;
 
     }
     
-    .business--container {
-        .business--subcontainer {
-            .business--price {
-                margin-top: .6rem;
+    .features--container {
+        .features--subcontainer {
+            .features--price {
+                margin-top: .45rem;
                 font-size: 1.5rem;
             }
         }
