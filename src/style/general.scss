@@ -24,6 +24,15 @@ img {
     gap: 2rem;
 }
 
+@media screen and (min-width: 1024px) {
+    .options--container {
+        padding: 0 1.5rem;
+        flex-direction: row;
+        align-items: center;
+        gap: 0;
+    }
+}
+
 @import "./header";
 @import "./hero";
 @import "./basic";

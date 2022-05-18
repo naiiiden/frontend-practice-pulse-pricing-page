@@ -97,5 +97,10 @@
             }
         }
     }
+}
 
+@media screen and (min-width: 1024px) {
+    .business--container {
+        margin: 0;
+    }
 }

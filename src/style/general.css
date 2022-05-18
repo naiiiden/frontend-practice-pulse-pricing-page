@@ -29,6 +29,20 @@ img {
   gap: 2rem;
 }
 
+@media screen and (min-width: 1024px) {
+  .options--container {
+    padding: 0 1.5rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 0;
+  }
+}
+
 @media screen and (max-width: 767px) {
   header {
     background: #fff;
@@ -280,6 +294,15 @@ img {
   color: #080c16;
 }
 
+@media screen and (min-width: 1024px) {
+  .pulse--basic--container {
+    padding: 0;
+  }
+  .pulse--basic--container .pulse--basic--li {
+    padding: 0 1.5rem;
+  }
+}
+
 .business--heading--price--container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -396,6 +419,12 @@ img {
   .business--container .business--subcontainer .business--price {
     margin-top: .6rem;
     font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .business--container {
+    margin: 0;
   }
 }
 
@@ -516,6 +545,12 @@ img {
   .features--container .features--subcontainer .features--price {
     margin-top: .45rem;
     font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .features--container {
+    margin: 0;
   }
 }
 /*# sourceMappingURL=general.css.map */

@@ -27,3 +27,13 @@
         }
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .pulse--basic--container {
+        padding: 0;
+
+        .pulse--basic--li {
+            padding: 0 1.5rem;
+        }
+    }
+}
