@@ -1,0 +1,81 @@
+@counter-style check {
+    system: fixed;
+    symbols: url(../images/icon-check.svg);
+    suffix: " ";
+}
+
+.business--container {
+    margin: 0 1.5rem;
+    background: #fff;
+    border: 1px solid #00ad6a;
+    border-radius: .5rem .5rem 0 0;
+
+    .business--recommended {
+        background: #00ad6a;
+        color: #fff;
+        font-size: .75rem;
+        font-weight: 700;
+        padding: .5rem 0;
+        text-align: center;
+    }
+
+    .business--subcontainer {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        .business--heading {
+            color: #00ad6a;
+            font-size: 2.25rem;
+            letter-spacing: -1.5px;
+        }
+
+        .business--price {
+            font-size: 1.25rem;
+            letter-spacing: -.5px;
+            color: #83858a;
+        }
+
+        .business--sign-up {
+            background: #1fe374;
+            color: #464951;
+            font-size: 1.25rem;
+            width: 100%;
+            text-align: center;
+            text-decoration: none;
+            padding: .5rem 2rem .75rem 2rem;
+            line-height: 1.5;
+            font-weight: 700;
+            order: 1;
+        }
+
+        .business--what--you--get {
+            font-size: .75rem;
+            line-height: 1.15;
+            font-weight: 700;
+            color: #464951;
+        }
+
+        .business--li {
+            margin-top: -1rem;
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            gap: .5rem;
+            color: #464951;
+
+            li {
+                div {
+                    display: flex;
+                    align-items: flex-start;
+                    gap: .15rem;
+
+                    img {
+                        margin-top: .325rem;
+                    }
+                }
+            }
+        }
+    }
+}
