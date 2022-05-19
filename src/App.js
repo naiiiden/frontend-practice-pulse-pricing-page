@@ -4,6 +4,8 @@ import Hero from "./components/Hero";
 import Basic from "./components/Basic";
 import Business from "./components/Business";
 import Features from "./components/Features";
+import Testimonial from "./components/Testimonial";
+import Subvert from "./images/subvert-avatar.png";
 
 const App = () => {
   return (
@@ -15,6 +17,7 @@ const App = () => {
         <Business/>
         <Features/>
       </section>
+      <Testimonial src={Subvert} quote='“Pulse is worth every penny because it empowers business owners with critical financial insight and knowledge.”' author="SUBVERT MARKETING, INC."/>
     </div>
   );
 }
