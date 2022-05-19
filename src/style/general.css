@@ -461,6 +461,8 @@ img {
   }
   .business--container .business--subcontainer .business--heading {
     font-size: 3rem;
+    width: 285px;
+    margin: auto;
   }
   .business--container .business--subcontainer .business--what--you--get {
     text-align: center;
