@@ -105,6 +105,20 @@
         margin: 0;
         min-width: 275px;
         max-width: 350px;
+
+        &:hover {
+            .features--subcontainer {
+                .features--premium {
+                    transform: scale(1.05);
+                    color: #062c27;
+                    transition: transform .5s;
+                }
+
+                .features--li {
+                    color: #062c27;
+                }
+            }
+        }
         
         .features--subcontainer {
             padding: 2rem 1rem;
