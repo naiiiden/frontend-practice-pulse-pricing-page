@@ -31,7 +31,7 @@ img {
 
 @media screen and (min-width: 1024px) {
   .options--container {
-    padding: 0 5rem;
+    padding: 0 3rem;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -39,6 +39,9 @@ img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     gap: 0;
   }
 }
@@ -297,6 +300,8 @@ img {
 @media screen and (min-width: 1024px) {
   .pulse--basic--container {
     padding: 0;
+    min-width: 275px;
+    max-width: 350px;
   }
   .pulse--basic--container .pulse--basic--li {
     padding: 0 1.5rem;
@@ -433,6 +438,8 @@ img {
   }
   .business--container {
     margin: 0;
+    min-width: 275px;
+    max-width: 350px;
   }
   .business--container .business--subcontainer {
     padding: 2rem 1rem;
@@ -576,6 +583,8 @@ img {
 @media screen and (min-width: 1024px) {
   .features--container {
     margin: 0;
+    min-width: 275px;
+    max-width: 350px;
   }
   .features--container .features--subcontainer {
     padding: 2rem 1rem;

@@ -103,6 +103,8 @@
 @media screen and (min-width: 1024px) {
     .features--container {
         margin: 0;
+        min-width: 275px;
+        max-width: 350px;
         
         .features--subcontainer {
             padding: 2rem 1rem;
