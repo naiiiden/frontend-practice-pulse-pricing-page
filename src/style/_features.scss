@@ -103,5 +103,24 @@
 @media screen and (min-width: 1024px) {
     .features--container {
         margin: 0;
+        
+        .features--subcontainer {
+            padding: 2rem 1rem;
+    
+            .features--get-all {
+                text-align: center;
+            }
+    
+            .features--premium {
+                order: 0;
+                align-self: center;
+            }
+        }
+    }
+
+    .features--heading--price--container {
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
     }
 }

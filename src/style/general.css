@@ -577,5 +577,27 @@ img {
   .features--container {
     margin: 0;
   }
+  .features--container .features--subcontainer {
+    padding: 2rem 1rem;
+  }
+  .features--container .features--subcontainer .features--get-all {
+    text-align: center;
+  }
+  .features--container .features--subcontainer .features--premium {
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .features--heading--price--container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    gap: 0;
+  }
 }
 /*# sourceMappingURL=general.css.map */
