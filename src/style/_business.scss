@@ -100,7 +100,30 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .business--heading--price--container {
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+    }
+    
     .business--container {
         margin: 0;
+
+        .business--subcontainer {
+            padding: 2rem 1rem;
+
+            .business--heading {
+                font-size: 3rem;
+            }
+
+            .business--what--you--get {
+                text-align: center;
+            }
+
+            .business--sign-up {
+                order: 0;
+                align-self: center;
+            }
+        }
     }
 }
