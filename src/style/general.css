@@ -306,6 +306,9 @@ img {
   .pulse--basic--container .pulse--basic--li {
     padding: 0 1.5rem;
   }
+  .pulse--basic--container .pulse--basic--paragraph .pulse--basic--link:hover {
+    color: #062c27;
+  }
 }
 
 .business--heading--price--container {
