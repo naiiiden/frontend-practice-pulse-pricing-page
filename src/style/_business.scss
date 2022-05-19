@@ -111,6 +111,20 @@
         min-width: 275px;
         max-width: 350px;
 
+        &:hover {
+            .business--subcontainer {
+                .business--sign-up {
+                    transform: scale(1.05);
+                    color: #062c27;
+                    transition: transform .5s;
+                }
+
+                .business--li {
+                    color: #062c27;
+                }
+            }
+        }
+
         .business--subcontainer {
             padding: 2rem 1rem;
 
