@@ -7,6 +7,7 @@ import Features from "./components/Features";
 import Testimonial from "./components/Testimonial";
 import Subvert from "./images/subvert-avatar.png";
 import Question from "./components/Question";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -34,6 +35,7 @@ const App = () => {
           <Question question="What types of payments do you accept?" answer="We accept payments made online using Visa, Mastercard, Discover, and American Express."/>
         </div>
       </section>
+      <Footer/>
     </div>
   );
 }
