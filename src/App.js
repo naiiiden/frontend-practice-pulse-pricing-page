@@ -6,6 +6,7 @@ import Business from "./components/Business";
 import Features from "./components/Features";
 import Testimonial from "./components/Testimonial";
 import Subvert from "./images/subvert-avatar.png";
+import Question from "./components/Question";
 
 const App = () => {
   return (
@@ -18,6 +19,9 @@ const App = () => {
         <Features/>
       </section>
       <Testimonial src={Subvert} quote='“Pulse is worth every penny because it empowers business owners with critical financial insight and knowledge.”' author="SUBVERT MARKETING, INC."/>
+      <section aria-label="frequently asked questions">
+        <Question question="How does the 30-day free trial work?" answer="You can use Pulse absolutely free for 30 days. After 30 days, we will charge the credit card you used when you sign up. If you choose to cancel your account before your trial ends, your card will not be charged."/>
+      </section>
     </div>
   );
 }
