@@ -1,0 +1,27 @@
+.faq--section {
+    background-color: #fcfcfc;
+    padding: 3rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .faq--heading {
+        font-size: 2rem;
+    }
+
+    .faq--container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        .question {
+            font-size: 1.25rem;
+            font-weight: 700;
+        }
+
+        .answer {
+            font-size: 1.125rem;
+            padding-top: .5rem;
+        }
+    }
+}
