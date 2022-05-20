@@ -727,4 +727,16 @@ img {
   font-size: 1.125rem;
   padding-top: .5rem;
 }
+
+@media screen and (min-width: 768px) {
+  .faq--section .faq--container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .faq--section .faq--container .question--container {
+    width: 50%;
+  }
+}
 /*# sourceMappingURL=general.css.map */
