@@ -819,4 +819,19 @@ img {
 .footer .footer--copyright a {
   color: inherit;
 }
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 5rem 1.5rem 1rem 1.5rem;
+  }
+  .footer .footer--logo--signup--container .footer--logo {
+    width: 10rem;
+  }
+  .footer .footer--nav {
+    margin-bottom: 3rem;
+  }
+  .footer .footer--nav .footer--nav--ul {
+    font-size: 1.125rem;
+  }
+}
 /*# sourceMappingURL=general.css.map */

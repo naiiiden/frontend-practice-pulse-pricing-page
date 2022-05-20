@@ -26,8 +26,7 @@ const Footer = () => {
                     <li><a href="">Blog</a></li>
                 </ul>
             </nav>
-            <p className="footer--copyright">©2019 Pulseapp.com, Inc. All Rights Reserved | <a href="">Terms of Use</a> | <a href="">Privacy Policy</a> | <a href="">EU Privacy</a>
-            Pulse is made by <a href="">Simple Focus</a>. We also make <a href="">Ballpark</a>, <a href="">Sifter</a>, and <a href="">Curated</a>.</p>
+            <p className="footer--copyright">©2019 Pulseapp.com, Inc. All Rights Reserved | <a href="">Terms of Use</a> | <a href="">Privacy Policy</a> | <a href="">EU Privacy</a><br/>Pulse is made by <a href="">Simple Focus</a>. We also make <a href="">Ballpark</a>, <a href="">Sifter</a>, and <a href="">Curated</a>.</p>
         </footer>
     )
 }
