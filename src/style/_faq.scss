@@ -6,7 +6,7 @@
     gap: 2rem;
 
     .faq--heading {
-        font-size: 2rem;
+        font-size: 2.25rem;
     }
 
     .faq--container {
@@ -17,6 +17,7 @@
         .question {
             font-size: 1.25rem;
             font-weight: 700;
+            color: #080c16;
 
             &::marker, &::-webkit-display-marker {
                 display: none;
@@ -27,6 +28,7 @@
         .answer {
             font-size: 1.125rem;
             padding-top: .5rem;
+            color: #464951;
         }
     }
 }

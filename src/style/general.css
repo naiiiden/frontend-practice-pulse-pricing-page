@@ -699,7 +699,7 @@ img {
 }
 
 .faq--section .faq--heading {
-  font-size: 2rem;
+  font-size: 2.25rem;
 }
 
 .faq--section .faq--container {
@@ -716,6 +716,7 @@ img {
 .faq--section .faq--container .question {
   font-size: 1.25rem;
   font-weight: 700;
+  color: #080c16;
 }
 
 .faq--section .faq--container .question::marker, .faq--section .faq--container .question::-webkit-display-marker {
@@ -726,6 +727,7 @@ img {
 .faq--section .faq--container .answer {
   font-size: 1.125rem;
   padding-top: .5rem;
+  color: #464951;
 }
 
 @media screen and (min-width: 768px) {
