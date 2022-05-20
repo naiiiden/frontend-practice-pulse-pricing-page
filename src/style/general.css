@@ -718,6 +718,11 @@ img {
   font-weight: 700;
 }
 
+.faq--section .faq--container .question::marker, .faq--section .faq--container .question::-webkit-display-marker {
+  display: none;
+  content: none;
+}
+
 .faq--section .faq--container .answer {
   font-size: 1.125rem;
   padding-top: .5rem;
