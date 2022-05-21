@@ -804,6 +804,7 @@ img {
 }
 
 .footer .footer--logo--signup--container .footer--link--sign-up {
+  border: 2px solid #00ab6a;
   padding: 1rem 2rem;
   font-weight: 700;
   text-decoration: none;
@@ -888,6 +889,10 @@ img {
     gap: 3rem;
     width: 35%;
   }
+  .footer .footer--logo--signup--container .footer--link--sign-up:hover {
+    background: transparent;
+    color: #00ab6a;
+  }
   .footer .footer--nav {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
@@ -898,6 +903,12 @@ img {
   .footer .footer--nav .footer--nav--ul {
     gap: 1.25rem;
     padding: 0 .5rem;
+  }
+  .footer .footer--nav .footer--nav--ul a:hover {
+    color: #fff;
+  }
+  .footer .footer--copyright a:hover {
+    color: #a9aaae;
   }
 }
 

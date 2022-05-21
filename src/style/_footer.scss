@@ -16,6 +16,7 @@
         }
 
         .footer--link--sign-up {
+            border: 2px solid #00ab6a;
             padding: 1rem 2rem;
             font-weight: 700;
             text-decoration: none;
@@ -88,6 +89,11 @@
             align-items: flex-start;
             gap: 3rem;
             width: 35%;
+            
+            .footer--link--sign-up:hover {
+                background: transparent;
+                color: #00ab6a;
+            }
         }
 
         .footer--nav {
@@ -98,6 +104,16 @@
             .footer--nav--ul {
                 gap: 1.25rem;
                 padding: 0 .5rem;
+
+                a:hover {
+                    color: #fff;
+                }
+            }
+        }
+
+        .footer--copyright {
+            a:hover {
+                color: #a9aaae;
             }
         }
     }
