@@ -5,28 +5,28 @@ const Footer = () => {
         <footer className="footer">
             <div className="footer--logo--signup--container">
                 <img src={Logo} alt="Pulse's logo" className="footer--logo"/>
-                <a href="" className="footer--link--sign-up">Sign Up for a Free 30-Day Trial</a>
+                <a href="https://signup.pulseapp.com/plus" className="footer--link--sign-up">Sign Up for a Free 30-Day Trial</a>
             </div>
             <nav className="footer--nav">
                 <ul className="footer--nav--ul">
                     <li>Product</li>
-                    <li><a href="">Features</a></li>
-                    <li><a href="">Pricing</a></li>
-                    <li><a href="">Sign Up</a></li>
+                    <li><a href="https://pulseapp.com/features">Features</a></li>
+                    <li><a href="https://pulseapp.com/pricing">Pricing</a></li>
+                    <li><a href="https://signup.pulseapp.com/">Sign Up</a></li>
                 </ul>
                 <ul className="footer--nav--ul">
                     <li>Company</li>
-                    <li><a href="">Customer Stories</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="https://pulseapp.com/customer-stories">Customer Stories</a></li>
+                    <li><a href="https://pulseapp.com/about">About</a></li>
+                    <li><a href="https://pulseapp.com/pricing#">Contact</a></li>
                 </ul>
                 <ul className="footer--nav--ul">
                     <li>Resources</li>
-                    <li><a href="">Support</a></li>
-                    <li><a href="">Blog</a></li>
+                    <li><a href="https://help.pulseapp.com/">Support</a></li>
+                    <li><a href="https://pulseapp.com/blog">Blog</a></li>
                 </ul>
             </nav>
-            <p className="footer--copyright">©2019 Pulseapp.com, Inc. All Rights Reserved | <a href="">Terms of Use</a> | <a href="">Privacy Policy</a> | <a href="">EU Privacy</a><br/>Pulse is made by <a href="">Simple Focus</a>. We also make <a href="">Ballpark</a>, <a href="">Sifter</a>, and <a href="">Curated</a>.</p>
+            <p className="footer--copyright">©2019 Pulseapp.com, Inc. All Rights Reserved | <a href="https://pulseapp.com/terms">Terms of Use</a> | <a href="https://pulseapp.com/privacy">Privacy Policy</a> | <a href="https://pulseapp.com/eu-privacy">EU Privacy</a><br/>Pulse is made by <a href="https://simplefocus.com/">Simple Focus</a>. We also make <a href="https://getballpark.com/">Ballpark</a>, <a href="https://sifterapp.com/">Sifter</a>, and <a href="https://curated.co/">Curated</a>.</p>
         </footer>
     )
 }
