@@ -9,7 +9,7 @@ const Business = () => {
                     <h2 className="business--heading">Small Business Plan</h2>
                     <p className="business--price">$59 per month</p>
                 </div>
-                <a href="" className="business--sign-up">Sign Up Now</a>
+                <a href="https://signup.pulseapp.com/plus" className="business--sign-up">Sign Up Now</a>
                 <p className="business--what--you--get">YOU GET PULSE BASICS, PLUS:</p>
                 <ul className="business--li">
                     <li>

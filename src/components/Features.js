@@ -9,7 +9,7 @@ const Features = () => {
                     <h2 className="features--heading">Unlock Extra Features</h2>
                     <p className="features--price">$89 per month</p>
                 </div>
-                <a href="" className="features--premium">Try Premium</a>
+                <a href="https://signup.pulseapp.com/premium" className="features--premium">Try Premium</a>
                 <p className="features--get-all">GET IT ALL, PLUS:</p>
                 <ul className="features--li">
                     <li>
