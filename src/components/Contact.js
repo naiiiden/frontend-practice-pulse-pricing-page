@@ -1,6 +1,6 @@
 const Contact = () => {
     return (
-        <button className="contact-button">CONTACT US</button>
+        <button className="contact--button">CONTACT US</button>
     )
 }
 

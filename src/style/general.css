@@ -917,4 +917,20 @@ img {
     padding: 5rem 12rem 1rem 12rem;
   }
 }
+
+.contact--button {
+  background: #00ad6a;
+  padding: .6rem 1.2rem;
+  color: #fff;
+  font-weight: 700;
+  font-size: .875rem;
+  font-family: inherit;
+  border: 2px solid #fff;
+  cursor: pointer;
+  position: fixed;
+  z-index: 99;
+  bottom: 0;
+  right: 0;
+  margin: 1.5rem;
+}
 /*# sourceMappingURL=general.css.map */
