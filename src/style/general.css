@@ -742,6 +742,18 @@ img {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .faq--section {
+    padding: 5rem 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .faq--section {
+    padding: 5rem 12rem;
+  }
+}
+
 .footer {
   background: #080c16;
   padding: 2rem 1.5rem 5rem 1.5rem;
