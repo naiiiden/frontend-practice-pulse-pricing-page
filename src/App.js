@@ -8,6 +8,7 @@ import Testimonial from "./components/Testimonial";
 import Subvert from "./images/subvert-avatar.png";
 import Question from "./components/Question";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 const App = () => {
   return (
@@ -36,6 +37,7 @@ const App = () => {
         </div>
       </section>
       <Footer/>
+      <Contact/>
     </div>
   );
 }
