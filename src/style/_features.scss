@@ -106,6 +106,12 @@
         min-width: 275px;
         max-width: 350px;
 
+        .features--subcontainer {
+            .features--premium {
+                transition: transform .2s;
+            }
+        }
+
         &:hover {
             .features--subcontainer {
                 .features--premium {

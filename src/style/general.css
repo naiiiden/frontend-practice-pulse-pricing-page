@@ -486,6 +486,10 @@ img {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s, -webkit-transform .2s;
   }
 }
 
@@ -614,6 +618,12 @@ img {
     margin: 0;
     min-width: 275px;
     max-width: 350px;
+  }
+  .features--container .features--subcontainer .features--premium {
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    transition: transform .2s;
+    transition: transform .2s, -webkit-transform .2s;
   }
   .features--container:hover .features--subcontainer .features--premium {
     -webkit-transform: scale(1.05);
