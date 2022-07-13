@@ -10,7 +10,7 @@ const Basic = () => {
                 <li>Toggle entries and accounts on and off to game out different scenarios</li>
             </ul>
             <p className="pulse--basic--paragraph">Just need the Pulse Basics?<br/>
-                <a href="" className="pulse--basic--link">Get them now</a> for $29 per month.
+                <a href="https://create.pulseapp.com/signup/" className="pulse--basic--link">Get them now</a> for $29 per month.
             </p>
         </section>
     )
