@@ -89,10 +89,15 @@
             align-items: flex-start;
             gap: 3rem;
             width: 35%;
-            
+
+            .footer--link--sign-up {
+                transition: .4s;
+            }
+
             .footer--link--sign-up:hover {
-                background: transparent;
+                background: #080c16;
                 color: #00ab6a;
+                transition: .4s;
             }
         }
 

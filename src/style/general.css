@@ -889,9 +889,15 @@ img {
     gap: 3rem;
     width: 35%;
   }
+  .footer .footer--logo--signup--container .footer--link--sign-up {
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
   .footer .footer--logo--signup--container .footer--link--sign-up:hover {
-    background: transparent;
+    background: #080c16;
     color: #00ab6a;
+    -webkit-transition: .4s;
+    transition: .4s;
   }
   .footer .footer--nav {
     -webkit-box-pack: space-evenly;
