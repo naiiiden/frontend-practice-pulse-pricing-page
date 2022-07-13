@@ -8,7 +8,7 @@ const Header = () => {
 
     return (
         <header>
-            <img src={Logo} alt="Pulse's logo"/>
+            <a href="https://pulseapp.com/" className="logo--link"><img src={Logo} alt="Pulse's logo"/></a>
             <button aria-label="toggle-navigation" className="header--mobile--menu--toggle" onClick={ToggleNav}>
                 <img src={Menu} alt=""/>
             </button>

@@ -46,6 +46,12 @@ img {
   }
 }
 
+.logo--link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 @media screen and (max-width: 767px) {
   header {
     background: #fff;
