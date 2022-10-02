@@ -14,6 +14,7 @@ const App = () => {
   return (
     <div className="App">
       <Header/>
+      <main>
       <Hero h1Text="Try Pulse free for 30 days." pText="See why Pulse is the best way to monitor your cash flow. Sign up for any plan and try Pulse absolutely free for 30 days."/>
       <section className="options--container">
         <Basic/>
@@ -36,6 +37,7 @@ const App = () => {
           <Question question="What types of payments do you accept?" answer="We accept payments made online using Visa, Mastercard, Discover, and American Express."/>
         </div>
       </section>
+      </main>
       <Footer/>
       <Contact/>
     </div>
