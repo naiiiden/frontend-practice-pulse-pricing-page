@@ -7,7 +7,7 @@ const Footer = () => {
                 <img src={Logo} alt="Pulse's logo" className="footer--logo"/>
                 <a href="https://signup.pulseapp.com/plus" className="footer--link--sign-up">Sign Up for a Free 30-Day Trial</a>
             </div>
-            <nav className="footer--nav">
+            <nav className="footer--nav" aria-label="Footer">
                 <ul className="footer--nav--ul">
                     <li>Product</li>
                     <li><a href="https://pulseapp.com/features">Features</a></li>

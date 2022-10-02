@@ -12,7 +12,7 @@ const Header = () => {
             <button aria-label={!openMenu ? "Open menu" : "Close menu"} aria-expanded={!openMenu ? "false" : "true"} aria-haspopup="true" className="header--mobile--menu--toggle" onClick={ToggleNav}>
                 <img src={Menu} alt=""/>
             </button>
-            <nav className="header--nav">
+            <nav className="header--nav" aria-label="Header">
                 <ul className={`header--nav--ul ${!openMenu ? "" : "show"}`}>
                     <li><a href="https://pulseapp.com/features" className="header--nav--ul--link link--one">Features</a></li>
                     <li><a href="https://pulseapp.com/customer-stories" className="header--nav--ul--link link--two">Customer Stories</a></li>
