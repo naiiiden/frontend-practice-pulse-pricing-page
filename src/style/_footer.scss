@@ -87,6 +87,12 @@
         .footer--nav {
             margin-bottom: 3rem;
 
+            .footer--nav--subcont {
+                h3 {
+                    font-size: 1.125rem;
+                }
+            }
+
             .footer--nav--ul {
                 font-size: 1.125rem;
             }
@@ -124,6 +130,7 @@
             .footer--nav--ul {
                 gap: 1.25rem;
                 padding: 0 .5rem;
+
 
                 a:hover {
                     color: #fff;

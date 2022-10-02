@@ -657,6 +657,9 @@ img {
   .footer .footer--nav {
     margin-bottom: 3rem;
   }
+  .footer .footer--nav .footer--nav--subcont h3 {
+    font-size: 1.125rem;
+  }
   .footer .footer--nav .footer--nav--ul {
     font-size: 1.125rem;
   }
