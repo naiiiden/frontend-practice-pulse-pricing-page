@@ -228,7 +228,7 @@ img {
   gap: 1rem;
 }
 .pulse--basic--container .pulse--basic--heading {
-  color: #00ad6a;
+  color: #00804F;
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: 1.15;
@@ -274,7 +274,7 @@ img {
 }
 .business--container .business--recommended {
   border-radius: 0.5rem 0.5rem 0 0;
-  background: #00ad6a;
+  background: #008552;
   color: #fff;
   font-size: 0.75rem;
   font-weight: 700;
@@ -288,7 +288,7 @@ img {
   gap: 2rem;
 }
 .business--container .business--subcontainer .business--heading {
-  color: #00ad6a;
+  color: #00804F;
   font-size: 2.25rem;
   letter-spacing: -1.5px;
 }
@@ -406,7 +406,7 @@ img {
   gap: 2rem;
 }
 .features--container .features--subcontainer .features--heading {
-  color: #00ad6a;
+  color: #00804F;
   font-size: 2.25rem;
   letter-spacing: -1.5px;
   line-height: 1;
