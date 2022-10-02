@@ -612,6 +612,14 @@ img {
   display: flex;
   justify-content: space-between;
 }
+.footer .footer--nav .footer--nav--subcont {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.footer .footer--nav .footer--nav--subcont ul {
+  padding-left: 0;
+}
 .footer .footer--nav .footer--nav--ul {
   width: 33%;
   font-size: 0.875rem;

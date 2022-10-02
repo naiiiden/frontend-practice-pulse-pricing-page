@@ -30,6 +30,16 @@
         display: flex;
         justify-content: space-between;
 
+        .footer--nav--subcont {
+            display: flex;
+            flex-direction: column;
+            gap: .75rem;
+
+            ul {
+                padding-left: 0;
+            }
+        }
+
         .footer--nav--ul {
             width: 33%;
             font-size: .875rem;
