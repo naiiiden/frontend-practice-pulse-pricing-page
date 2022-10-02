@@ -2,7 +2,7 @@ import checkmark from "../images/icon-check.svg";
 
 const Features = () => {
     return (
-        <section role="listitem" className="features--container">
+        <section className="features--container">
             <p className="features--complex">Complex business with multiple financial accounts, currencies, or auditing needs?</p>
             <div className="features--subcontainer">
                 <div className="features--heading--price--container">

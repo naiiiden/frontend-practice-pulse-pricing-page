@@ -2,7 +2,7 @@ import checkmark from "../images/icon-check.svg";
 
 const Business = () => {
     return (
-        <section role="listitem" className="business--container">
+        <section className="business--container">
             <p className="business--recommended">RECOMMENDED</p>
             <div className="business--subcontainer">
                 <div className="business--heading--price--container">

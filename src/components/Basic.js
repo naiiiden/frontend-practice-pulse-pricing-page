@@ -1,6 +1,6 @@
 const Basic = () => {
     return (
-        <section role="listitem" className="pulse--basic--container">
+        <section className="pulse--basic--container">
             <h2 className="pulse--basic--heading">These are what we call the Pulse Basics. They’re what every customer gets.</h2>
             <ul className="pulse--basic--li">
                 <li>Manage cash flow on a daily, weekly, monthly, or yearly basis</li>
