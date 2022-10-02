@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/frontend-practice-pulse-pricing-page/static/css/main.438ad8a1.css",
-    "main.js": "/frontend-practice-pulse-pricing-page/static/js/main.e68089ce.js",
+    "main.css": "/frontend-practice-pulse-pricing-page/static/css/main.9d031f77.css",
+    "main.js": "/frontend-practice-pulse-pricing-page/static/js/main.f0ec46fd.js",
     "static/media/pulse-logo.svg": "/frontend-practice-pulse-pricing-page/static/media/pulse-logo.8011e7c6166c06512a1c83a6384c5027.svg",
     "index.html": "/frontend-practice-pulse-pricing-page/index.html",
     "static/media/icon-check.svg": "/frontend-practice-pulse-pricing-page/static/media/icon-check.3aa75b32cc63a2be87b8110f8f1d9840.svg",
     "static/media/icon-menu.svg": "/frontend-practice-pulse-pricing-page/static/media/icon-menu.dd155856e247cbe2c330b12d90ccbac2.svg",
-    "main.438ad8a1.css.map": "/frontend-practice-pulse-pricing-page/static/css/main.438ad8a1.css.map",
-    "main.e68089ce.js.map": "/frontend-practice-pulse-pricing-page/static/js/main.e68089ce.js.map"
+    "main.9d031f77.css.map": "/frontend-practice-pulse-pricing-page/static/css/main.9d031f77.css.map",
+    "main.f0ec46fd.js.map": "/frontend-practice-pulse-pricing-page/static/js/main.f0ec46fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.438ad8a1.css",
-    "static/js/main.e68089ce.js"
+    "static/css/main.9d031f77.css",
+    "static/js/main.f0ec46fd.js"
   ]
 }
